@@ -18,5 +18,10 @@ router.route('/users/article/:id')
 .get(articlesController.getUsersArticleById)
 
 
+router.route('/all')
+.get(articlesController.getAllArticle)
+.post(articlesController.getMostArticle)
+
+router.post('/admin/paginate',auth('readAny','articles'),articlesController.adminPaginate)
 
 module.exports = router;
