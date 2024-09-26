@@ -12,7 +12,7 @@ const routes = require('./routes');
 
 const { handleError, convertToApiError } = require('./middleware/apierror');
 
-const mongoUri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@${process.env.DB_HOST}?retryWrites=true&w=majority`
+const mongoUri = `mongodb+srv://yashmahajan0521:39fUsO9BzIK74Vxx@cluster0.14hmoc5.mongodb.net/flickbase?retryWrites=true&w=majority`
 mongoose.connect(mongoUri);
 
 
