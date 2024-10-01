@@ -6,6 +6,10 @@ Flickbase is a picture-sharing web application built using the MERN stack (Mongo
 
 ![Flickbase Screenshot](client/assets/photo2.png)
 
+![Docker Screenshot](client/assets/docker.png)
+
+![Docker Screenshot](client/assets/dockerize.gif)
+
 ## Table of Contents
 
 - [Features](#features)
